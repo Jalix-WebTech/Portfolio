@@ -135,3 +135,9 @@ modalOverlay.addEventListener("click", (e) => {
   if (e.target === modalOverlay) hideModal();
 });
 // ComingSoon ends here ........
+
+ // Get the current year from the user's system
+  const currentYear = new Date().getFullYear();
+
+  // Insert the year into the footer span
+  document.getElementById("currentYear").textContent = currentYear;

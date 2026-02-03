@@ -663,3 +663,80 @@ font-family: 'Times New Roman', Times, serif;
 }
 
 /* Contact Section Ends here */
+
+/* Footer base styling */
+.site-footer {
+  background: #3f3a15;        /* Dark professional tone */
+  color: #e5e7eb;                   /* Soft white text */
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 14px;
+}
+
+/* Footer link styling */
+.site-footer a {
+  color: #38bdf8;                   /* Accent blue */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Hover effect for better UX */
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Partners section */
+.partners {
+  padding: 60px 20px;
+  background-color: #f8fafc;
+  text-align: center;
+}
+
+.partners h2 {
+  font-size: 22px;
+  margin-bottom: 30px;
+  color: #0f172a;
+}
+
+/* Slider container */
+.logo-slider {
+  overflow: hidden;           /* Hides logos outside view */
+  width: 100%;
+  position: relative;
+}
+
+/* Track that moves */
+.logo-track {
+  display: flex;
+  width: calc(300px * 14);     /* logo width × total logos */
+  animation: scroll 20s linear infinite;
+}
+
+/* Logo styling */
+.logo-track img {
+  width: 100px;
+  height: 100px;
+  padding: 0 30px;
+  object-fit: contain;
+    /* Professional muted look */
+  opacity: 0.8;
+  transition: all 2s ease;
+  border-radius:50%;
+}
+
+/* Hover effect */
+.logo-track img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+/* Keyframes for infinite scrolling */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
