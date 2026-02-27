@@ -97,7 +97,13 @@ const modalMessage = document.getElementById("modalMessage");
 const modalOkBtn = document.getElementById("modalOkBtn");
 
 // Buttons
-const visitButtons = document.querySelectorAll(".projectBtn");
+
+
+//================================================================
+//  to make tthe maintenance message work, undo this 👇🏿👇🏿👇🏿 comment
+// ================================================================
+
+// const visitButtons = document.querySelectorAll(".projectBtn"); 
 
 // Default message
 const fallbackMessage = "This project is currently under maintenance. Please try again later.";
