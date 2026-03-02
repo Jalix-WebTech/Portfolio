@@ -531,7 +531,46 @@ font-family: 'Times New Roman', Times, serif;
   color: #b4b4b4;
 }
 
+.btn-wrapper{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
 .view-btn {
+  margin-top: 1rem;
+  padding: 0.3rem 0.3rem;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: #7a6800;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  width: 150px;
+}
+
+.view-btn-2 {
+  margin-top: 1rem;
+  /* padding: 0.6rem 1rem; */
+  border: none;
+  border-radius: 8px;
+  color: #7a6800;
+  background-color: #ffffff;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  width: 150px;
+}
+
+.view-btn-3 {
   margin-top: 1rem;
   padding: 0.6rem 1rem;
   border: none;
@@ -541,6 +580,9 @@ font-family: 'Times New Roman', Times, serif;
   font-size: 1.1rem;
   cursor: pointer;
   font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  /* width: 150px; */
 }
 
 .view-btn:hover {
